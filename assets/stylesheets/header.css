@@ -4,8 +4,12 @@ header {
      align-items: center;
 }
 
+.logo__topo {
+     display: none;
+}
+
 header .container__header {
-     width: 50%;
+     width: 60%;
      height: fit-content;
      padding: 0 100px;
 }
@@ -28,7 +32,7 @@ nav {
      top: 0;
 }
 
-nav .logo {
+.logo {
      font-size: 21px;
      border-left: 4px solid var(--purple);
      padding: 3px 0 0 5px;
@@ -41,7 +45,7 @@ nav .logo {
      list-style: none;
      display: flex;
      align-items: center;
-     width: 70%;
+     width: 80%;
      justify-content: space-around;
 }
 
@@ -51,9 +55,30 @@ nav .logo {
      text-decoration: none;
 }
 
+.nav__list svg {
+     display: none;
+}
+
+
+
 /* responsive design */
 
+/* medium screen */
 
+@media screen and (max-width:1000px) {
+
+     header .container__header {
+          width: 85%;
+     }
+
+     nav {
+          padding-right: 10px;
+     }
+
+     .nav__list a {
+          font-size: 18px;
+     }
+}
 
 /* tablet */
 
@@ -63,12 +88,17 @@ nav .logo {
           height: calc(90vh - var(--menu-height));
      }
 
+     header .logo__topo {
+          display: inline-block;
+          margin-bottom: 4.5rem;
+     }
+
      header .container__header {
-          width: 100%;
+          width: 95%;
           padding: 0 30px;
      }
 
-     nav .logo {
+     .logo {
           display: none;
      } 
      
@@ -83,6 +113,7 @@ nav .logo {
      
      .nav__list a {
           font-size: 17px;
+          padding: 0 2px;
      }
 }
 
@@ -90,4 +121,22 @@ nav .logo {
 
 @media screen and (max-width:480px) {
      
+     nav {
+          padding: 0 15px;
+     
+     }
+
+     .nav__list a {
+          font-size: 12px;
+     }
+
+     .nav__list svg {
+          display: block;
+          margin: 0 auto 10px;
+     }
+
+     .container__header button {
+          margin-top: 10px;
+     }
+
 }
