@@ -12,12 +12,15 @@
      width: 50%;
      text-align: center;
      position: relative;
+     
 }
 
 .about-me-img {
      width: 55%;
      padding-top: 10px;
      height: 100%;
+     object-fit: cover;
+     position: relative;
 }
 
 .line {
@@ -32,4 +35,40 @@
 .green {
      transform: rotate(-3.3deg);
      border-color: var(--green);
+}
+
+/* responsive design */
+
+/* medium screen */
+
+@media screen and (max-width:1000px) {
+
+     .about_me {
+          flex-direction: column;
+     }
+
+     .about_me .container, .about-me-img-container {
+          width: 100%;
+     }
+
+     .about_me .container {
+          padding-right: 0;
+     }
+
+     .about-me-img-container {
+          margin: 70px 0;
+     }
+}
+
+/* phone */
+
+@media screen and (max-width:480px) {
+     
+     .about_me {
+          padding: 40px;
+     }
+
+     .container .title-green {
+          padding-top: 60px;
+     }
 }
