@@ -11,8 +11,25 @@
 .about-me-img-container {
      width: 50%;
      text-align: center;
+     position: relative;
 }
 
 .about-me-img {
-     width: 50%;
+     width: 55%;
+     padding-top: 10px;
+     height: 100%;
+}
+
+.line {
+     width: calc(70% + 50px);
+     height: calc(100% + 50px);
+     border: 1px solid var(--purple);
+     position: absolute;
+     top: -25px;
+     left: calc(50% - 70%/2 - 25px);
+}
+
+.green {
+     transform: rotate(-3.3deg);
+     border-color: var(--green);
 }
