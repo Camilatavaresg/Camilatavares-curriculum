@@ -14,10 +14,6 @@ header .container__header {
      padding: 0 100px;
 }
 
-.container__header h1 {
-     color: var(--green);
-}
-
 .container__header button {
      margin-top: 40px;
 }
@@ -122,8 +118,11 @@ nav {
 @media screen and (max-width:480px) {
      
      nav {
+          position: fixed;
+          bottom: 0;
+          top: unset;
+          width: 100%;
           padding: 0 15px;
-     
      }
 
      .nav__list a {
