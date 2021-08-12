@@ -67,20 +67,9 @@
      
 }
 
-/* tablet */
-
-@media screen and (max-width:768px) {
-     
-    
-}
-
 /* phone */
 
-@media screen and (max-width:480px) {
-     
-     .services {
-          
-     }
+@media screen and (max-width:480px) {     
 
      .service .services-container {
           padding: 0 30px;
