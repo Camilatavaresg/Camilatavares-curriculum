@@ -5,7 +5,8 @@
 
 .curriculum-container {
      display: flex;
-     margin: 50px 0;
+     margin: 50px auto;
+     max-width: 1200px;
 }
 
 .curriculum-content {
@@ -22,4 +23,37 @@
      grid-template-columns: 150px auto;
      grid-gap: 1rem;
      margin-bottom: 50px;
+}
+
+/* responsive design */
+
+/* medium screen */
+
+@media screen and (max-width:1000px) {
+     
+     .curriculum-container {
+          flex-wrap: wrap;
+     }
+
+     .curriculum-img {
+          display: block;
+          margin: 0 auto 50px;
+          width: 100%;
+          max-width: 520px;
+     }
+}
+
+/* phone */
+
+@media screen and (max-width:480px) {
+     
+     .curriculum {
+          padding: 0 20px;
+     }
+
+     .curriculum-info {
+          padding: 0 5px;
+          grid-gap: 10px;
+     }
+
 }
