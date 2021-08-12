@@ -5,6 +5,7 @@
      --green: #15CDCB;
      --bg-dark: #212226;
      --light-grey: #E0DEDE;
+     --medium-grey: #2F3034;
 
      --menu-height: 75px;
 }
@@ -52,4 +53,19 @@ button {
      font-size: 18px;
      font-weight: bold;
      padding: 8px 35px;
+}
+
+.curriculum-button {
+     background: var(--medium-grey);
+     border: 1px solid var(--purple);
+     color: var(--green);
+     font-weight: bold;
+     height: 65px;
+
+     display: flex;
+     align-items: center;
+}
+
+.curriculum-button img {
+     margin-right: 15px;
 }

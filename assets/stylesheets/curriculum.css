@@ -1,0 +1,25 @@
+.curriculum {
+     padding: 0 100px;
+     text-align: center;
+}
+
+.curriculum-container {
+     display: flex;
+     margin: 50px 0;
+}
+
+.curriculum-content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: left;
+     width: 100%;
+     align-items: center;
+}
+
+.curriculum-info {
+     display: grid;
+     grid-template-columns: 150px auto;
+     grid-gap: 1rem;
+     margin-bottom: 50px;
+}
