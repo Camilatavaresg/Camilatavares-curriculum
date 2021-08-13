@@ -1,0 +1,32 @@
+.contact {
+     max-width: 700px;
+     margin: 150px auto 70px;
+     text-align: center;
+     padding: 0 20px;
+}
+
+.contact h1 {
+     font-weight: 500;
+     width: fit-content;
+     margin: 0 auto 40px;
+     background: -webkit-linear-gradient(#15CDCB, #5280E2);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.contact button {
+     margin: 40px auto;
+}
+
+.social-media {
+     max-width: 360px;
+     display: flex;
+     justify-content: space-around;
+     margin: 50px auto 0;
+}
+
+
+footer {
+     text-align: center;
+     margin-bottom: 2rem;
+}

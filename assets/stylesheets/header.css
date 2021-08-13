@@ -140,4 +140,7 @@ nav {
           margin-top: 10px;
      }
 
+     .nav__list li {
+          padding-bottom: 10px;
+     }
 }
