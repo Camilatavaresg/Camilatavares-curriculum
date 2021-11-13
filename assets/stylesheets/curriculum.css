@@ -53,7 +53,11 @@
 
      .curriculum-info {
           padding: 0 5px;
-          grid-gap: 10px;
+          grid-gap: 6px;
+     }
+
+     .curriculum-info span, .curriculum-info b {
+          font-size: 12px;
      }
 
 }
